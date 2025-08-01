@@ -1,0 +1,6 @@
+{
+  // Wrangler configuration for Cloudflare Workers
+  "name": "coteacher-naep-worker",
+  "main": "src/worker.ts",
+  "compatibility_date": "2025-08-01"
+}

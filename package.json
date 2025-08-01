@@ -1,0 +1,12 @@
+{
+  "name": "coteacher-naep",
+  "version": "1.0.0",
+  "description": "NAEP worker project",
+  "main": "src/worker.ts",
+  "scripts": {
+    "start": "wrangler dev",
+    "build": "wrangler publish"
+  },
+  "author": "",
+  "license": "MIT"
+}
