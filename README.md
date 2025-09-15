@@ -1,9 +1,7 @@
-# coteacher-naep
+# NAEP Geo — Deep Indigo UI (Workers, zero-JS)
 
-Cloudflare Worker for NAEP data.
-
-## Structure
-- `src/worker.ts`: Worker source code
-- `public/naep.json`: NAEP data file
-- `wrangler.jsonc`: Wrangler config
-- `package.json`: Project metadata
+## Deploy
+```bash
+npm i
+npm run dev       # local preview; use --remote to test real geo
+npm run publish   # deploy

@@ -1,12 +1,16 @@
 {
-  "name": "coteacher-naep",
+  "name": "naep-geo",
+  "private": true,
   "version": "1.0.0",
-  "description": "NAEP worker project",
-  "main": "src/worker.ts",
+  "type": "module",
   "scripts": {
-    "start": "wrangler dev",
-    "build": "wrangler publish"
+    "dev": "wrangler dev",
+    "publish": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
   },
-  "author": "",
-  "license": "MIT"
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250204.0",
+    "typescript": "^5.5.4",
+    "wrangler": "^3.75.0"
+  }
 }
