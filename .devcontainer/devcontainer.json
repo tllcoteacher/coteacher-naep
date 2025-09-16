@@ -1,0 +1,13 @@
+{
+  "name": "Safe Dev + AI",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "npm i -g @openai/codex @anthropic-ai/claude-code && npm ci || true",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode-remote.remote-containers",
+        "openai.chatgpt" // OpenAI Codex IDE extension
+      ]
+    }
+  }
+}
