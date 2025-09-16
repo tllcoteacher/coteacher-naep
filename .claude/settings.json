@@ -1,0 +1,12 @@
+{
+  "defaultMode": "plan",
+  "permissions": {
+    "deny": [
+      "WebFetch",
+      "Bash(curl:*)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)"
+    ]
+  }
+}

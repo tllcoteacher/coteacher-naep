@@ -6,7 +6,7 @@
     "vscode": {
       "extensions": [
         "ms-vscode-remote.remote-containers",
-        "openai.chatgpt" // OpenAI Codex IDE extension
+        "openai.chatgpt"
       ]
     }
   }
